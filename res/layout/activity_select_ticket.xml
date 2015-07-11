@@ -1,0 +1,1736 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectTicketActivity" 
+    android:orientation="vertical"
+    android:id="@+id/selectlinear">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_sel"
+                android:clickable="true"
+                android:onClick="ticketOnClick"
+                android:id="@+id/linearticket1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" >
+
+                    <TextView
+                        android:id="@+id/TextView102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="3"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView98"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="6"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="9"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="12"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="15"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="18"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView107"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView108"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="21"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="24"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="27"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="30"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="33"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="36"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="39"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="42"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="45"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_sel"
+                android:clickable="true"
+                 android:onClick="ticketOnClick"
+                android:id="@+id/linearticket2"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" >
+
+                    <TextView
+                        android:id="@+id/TextView75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="6"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="24"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="42"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="60"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="78"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="12"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="30"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="48"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="66"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="84"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="18"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="36"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="90
+                        "
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="54"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="72"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_sel"
+                android:clickable="true"
+                 android:onClick="ticketOnClick"
+                android:id="@+id/linearticket3"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" >
+
+                    <TextView
+                        android:id="@+id/TextView48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="7"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="14"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="21"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="28"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="35"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="42"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="49"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="56"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="63"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="88"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="70"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="77"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="84"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="91"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="98"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_sel"
+                android:clickable="true"
+                 android:onClick="ticketOnClick"
+                android:id="@+id/linearticket4"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" >
+
+                    <TextView
+                        android:id="@+id/TextView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="8"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="16"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="24"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="32"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="40"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="48"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="56"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="64"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="72"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="80"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="88"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="96"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="3"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#dcdcdc"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="5"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#d3d3d3"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#cac9c9"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:onClick="housieNumberOnClick"
+                        android:text="77"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_sel"
+        android:clickable="true"
+         android:onClick="ticketOnClick"
+                android:id="@+id/linearticket5"
+        android:orientation="vertical" 
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/TextView001"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView002"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView003"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="10"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView004"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView005"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="15"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView006"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView007"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="20"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView008"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView009"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="25"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                android:id="@+id/TextView0010"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0011"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="30"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0012"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0013"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="35"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0014"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0015"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="40"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0016"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0017"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="45"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0018"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="50"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                android:id="@+id/TextView0019"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="55"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0020"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0021"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="60"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0022"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0023"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="65"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0024"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0025"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="70"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0026"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView0027"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:clickable="false"
+                android:gravity="center"
+                android:onClick="housieNumberOnClick"
+                android:text="75"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
